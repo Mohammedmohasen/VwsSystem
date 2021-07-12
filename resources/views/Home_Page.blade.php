@@ -14,14 +14,14 @@
 
   <!--  Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
+
 
   <!-- JQuery (For Bootstrap)  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Popper.js (For Bootstrap)-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
+
  <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
@@ -31,13 +31,13 @@
    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 <!--CSS File-->
-<link rel="stylesheet" type="text/css" href="..\CSS\Home_index.css">
+<link rel="stylesheet" type="text/css" href="{{ asset('CSS\Home_index.css') }}">
 </head>
 <body>
         <!--Navbar 1-->
         <div class="d-flex justify-content-between" style="background-color: #252525;">
             <div class="pl-2 py-1" >
-        
+
             </div>
             <div class="pl-2 py-1" >
                 <a href="#"></a><i class="fab fa-facebook-square n1 facebook"></i></a>
@@ -46,16 +46,16 @@
                 <a href="#"> <i class="fab fa-flickr n1 flicker" ></i>  </a>
                 <a href="#"> <i class="fab fa-instagram n1 instagram"></i> </a>
             </div>
-        
+
             <div class="pr-2 py-1" >
                 <a href="#"data-toggle= "tooltip" title="Change to Arabic"> <i class="fas fa-language n1"></i></a>
             </div>
           </div>
-      
+
           <!--Navbar 2-->
-      
+
           <nav class="navbar navbar-expand-lg  navbar-light bg-light  shadow-lg sticky-top" >
-              <a class="navbar-brand" href="#">    <img src="Logo.png" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
+              <a class="navbar-brand" href="#">    <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -92,28 +92,28 @@
                 <div class="carousel-caption">
                   <h3>Welcome!</h3>
                   <p>Department of Voluntary Work</p>
-                </div>   
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="https://fakeimg.pl/1100x450/" alt="The image is not found" width="1100" height="450">
                 <div class="carousel-caption">
                   <h3>Join the voluntary activities</h3>
                   <p>To improve some of your skills!</p>
-                </div>   
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="https://fakeimg.pl/1100x450/" alt="The image is not found" width="1100" height="450">
                 <div class="carousel-caption">
                   <h3>Despite the bombing, our university is more beautiful</h3>
                   <p>Keep it up... againest all odds!</p>
-                </div>   
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="https://fakeimg.pl/1100x450/" alt="The image is not found" width="1100" height="450">
                 <div class="carousel-caption">
                   <h3>Picking olives!</h3>
                   <p>Picking the most iconic corp in Palestine!</p>
-                </div>   
+                </div>
               </div>
             </div>
             <a class="carousel-control-prev" href="#mainSlides" data-slide="prev">
@@ -130,13 +130,13 @@
                     <div class="card cardContainer">
                         <div class="card-body mainCard">
                           <h4 class="card-title">Partner In Success</h4>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur ratione animi quasi facilis iste commodi, 
-                            soluta architecto quibusdam at nulla totam rerum dolor quis vero. Quaerat quam laudantium eveniet?</p>     
-                            <div class="float-right " >             
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur ratione animi quasi facilis iste commodi,
+                            soluta architecto quibusdam at nulla totam rerum dolor quis vero. Quaerat quam laudantium eveniet?</p>
+                            <div class="float-right " >
                                 <button class="btn btn-outline my-2 mx-2 my-sm-0 btn3" type="submit">Apply</button>
                                 <button class="btn btn-outline my-sm-0 btn3" type="submit">Suggest Intiative</button>
                             </div>
-    
+
                         </div>
                       </div>
 
@@ -150,19 +150,19 @@
                         </ol>
                         <div class="carousel-inner" >
                           <div class="carousel-item active">
-                            <img  src="v.jpg" alt="First slide" style="height: 284px;">
+                            <img  src="{{ asset('CSS/v.jpg')}}" alt="First slide" style="height: 284px;">
                             <div class="carousel-caption">
                                 <p>Some text goes here.</p>
                               </div>
                           </div>
                           <div class="carousel-item" style="height: 284px;">
-                            <img  src="v.jpg" alt="Second slide">
+                            <img  src="{{ asset('CSS/v.jpg')}}" alt="Second slide">
                             <div class="carousel-caption">
                                 <p>Some text goes here.</p>
                               </div>
                           </div>
                           <div class="carousel-item" style="height: 284px;">
-                            <img  src="v.jpg" alt="Third slide">
+                            <img  src="{{ asset('CSS/v.jpg')}}" alt="Third slide">
                            <div class="carousel-caption">
                                 <p>Some text goes here.</p>
                               </div>
@@ -175,12 +175,12 @@
                     <div class="card ">
                         <div class="card-body mainCard" style="background-color: #EF6226;">
                           <h4 class="card-title">I'm A Volunteer</h4>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur ratione animi quasi facilis iste commodi, 
-                            soluta architecto quibusdam at nulla totam rerum dolor quis vero. Quaerat quam laudantium eveniet?</p>     
-                            <div class="float-right " >             
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur ratione animi quasi facilis iste commodi,
+                            soluta architecto quibusdam at nulla totam rerum dolor quis vero. Quaerat quam laudantium eveniet?</p>
+                            <div class="float-right " >
                                 <button class="btn btn-outline mr-2 my-sm-0 btn4" type="submit">Apply</button>
                             </div>
-    
+
                         </div>
                       </div>
 
@@ -194,9 +194,9 @@
               <div class="row">
                   <div class="col-6">
                       <h5  class="learnTitle pt-5 pb-2">Learn about our network</h5>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur ratione animi quasi facilis iste commodi, 
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur ratione animi quasi facilis iste commodi,
                        soluta architecto quibusdam at nulla totam rerum dolor quis vero. Quaerat quam laudantium eveniet?</p>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur ratione animi quasi facilis iste commodi, 
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur ratione animi quasi facilis iste commodi,
                         soluta architecto quibusdam at nulla totam rerum dolor quis vero. Quaerat quam laudantium eveniet?</p>
                        <button class="btn btn-outline my-2 my-sm-0 btn1 float-right" type="submit">Read More</button>
                   </div>
@@ -222,7 +222,7 @@
                    <div class="row mt-3">
                     <div class="col-sm-3 news">
                         <div class="card " style =" width: 125%">
-                            <img class="card-img-top" src="v.jpg" alt="Card image">
+                            <img class="card-img-top" src="{{ asset('CSS/v.jpg')}}" alt="Card image">
                             <div class="card-body">
                               <h4 class="card-title">Title</h4>
                               <p class="card-text">Some text goes here, Some text goes here,Some text goes here</p>
@@ -232,7 +232,7 @@
                     </div>
                     <div class="col-sm-3 news">
                         <div class="card " style =" width: 125%">
-                            <img class="card-img-top" src="v.jpg" alt="Card image" >
+                            <img class="card-img-top" src="{{ asset('CSS/v.jpg')}}" alt="Card image" >
                             <div class="card-body">
                               <h4 class="card-title">Title</h4>
                               <p class="card-text">Some text goes here, Some text goes here, Some text goes here</p>
@@ -242,7 +242,7 @@
                     </div>
                     <div class="col-sm-3 news">
                         <div class="card " style =" width: 125%" >
-                            <img class="card-img-top" src="v.jpg" alt="Card image" >
+                            <img class="card-img-top" src="{{ asset('CSS/v.jpg')}}" alt="Card image" >
                             <div class="card-body">
                               <h4 class="card-title">Title</h4>
                               <p class="card-text">Some text goes here, Some text goes here, Some text goes here</p>
@@ -260,10 +260,10 @@
                     <h5 class="mb-1">Announcments</h5>
                     <a href="#" class="btn btn1 mb-1" >More</a>
                     </div>
-                      
+
                     <div class="table-responsive mt-3" style="height: 335px;">
                         <table class="table table-hover">
-                          
+
                           <tbody>
                             <tr>
                                 <th>09 01</th>
@@ -335,7 +335,7 @@
     <div class="row text-center" >
         <div class="Item m-5 col" style="color:#018756">
           <i class="fas fa-male icon1"></i>
-        <p  class="numbers">0</p> 
+        <p  class="numbers">0</p>
         <p class = "labels">Volunteers</p>
     </div>
 
@@ -344,19 +344,19 @@
             <p  class="numbers">0</p>
              <p class = "labels" >Initiatives</p>
         </div>
-         
-  
-         
+
+
+
       <div class="Item m-5 col" style="color: #EE6326;">
         <i class="fas fa-running"></i>
         <p  class="numbers">0</p>
         <p class = "labels" >Active initiatives</p>
       </div>
-  
-      
+
+
       <div class="Item m-5 col" style="color: #F40909;">
           <i class="far fa-building" ></i>
-              <p  class="numbers">0</p> 
+              <p  class="numbers">0</p>
         <p class = "labels">Institutions</p>
     </div>
     </div>
@@ -369,8 +369,8 @@
         <!--Institutions Slides-->
         <div id="institutionsSlides" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-          
-          
+
+
             <!--Indicators-->
             <ol class="carousel-indicators">
               <li data-target="#institutionsSlides" data-slide-to="0" class="active"></li>
@@ -378,29 +378,29 @@
               <li data-target="#institutionsSlides" data-slide-to="2"></li>
             </ol>
             <!--/.Indicators-->
-          
+
             <!--Slides-->
             <div class="carousel-inner mt-5" role="listbox">
                 <div class="carousel-item active">
                     <div class="row d-flex justify-content-center">
 
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     </div>
                 </div>
@@ -409,22 +409,22 @@
                     <div class="row d-flex justify-content-center">
 
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     </div>
                 </div>
@@ -433,22 +433,22 @@
                     <div class="row d-flex justify-content-center">
 
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     <div col-2>
-                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="Logo.png" alt="Logo" style="width:80px; "></a>
+                        <a href="#" class= "mx-4" data-toggle="tooltip" title="Institution name"> <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:80px; "></a>
                     </div>
                     </div>
                 </div>
@@ -464,14 +464,14 @@
 
         </div>
     </div>
-          
-        
 
 
 
 
 
-            
+
+
+
 
                 <!-- Footer -->
 <footer class="bg-dark text-lg-start" style="color: white;" >
@@ -499,15 +499,15 @@
               </div>
               <button class="btn btn-outline my-2 my-sm-0 btn2" type="submit">Send</button>
           </form>
-  
-          
+
+
         </div>
         <!--Grid column-->
-  
+
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase footerTitle mb-4">Useful Links</h5>
-  
+
           <ul class="list-unstyled mb-0">
             <li class="footerLink">
               <a href="#" class="text-white ">Articles</a>
@@ -527,15 +527,15 @@
               <li class="footerLink">
                 <a href="#" class="text-white ">Staff</a>
               </li>
-              
+
           </ul>
         </div>
         <!--Grid column-->
-  
+
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase footerTitle mb-4">Contact Us</h5>
-  
+
           <ul class="list-unstyled">
             <li class="footerLink">
               <a href="#!" class="text-white "><i class="fas fa-phone mr-2"></i>00-00000000</a>
@@ -553,7 +553,7 @@
       <!--Grid row-->
     </div>
     <!-- Grid container -->
-  
+
     <!-- Copyright -->
     <div class="text-center p-3 d-flex justify-content-between" style="background-color: #666666">
         <div class="pl-2 py-1" >
@@ -576,13 +576,13 @@
 
 <!-- تذييل الصفحة القديم
     <div class="jumbotron text-center  rounded-0" style="margin-bottom:0;" id= "footer">
-        <img src="Logo.png" alt="Logo" style="width:100px; height: 100px; "  class="img-fluid ">  
+        <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:100px; height: 100px; "  class="img-fluid ">
         <div>
            <a href="#" class="social" > <i class="fab fa-facebook-square facebook" style="user-select: auto;"></i></a>
            <a href="#" class="social" > <i class="fab fa-twitter-square twitter" ></i></a>
            <a href="#" class="social" >  <i class="fab fa-youtube-square youtube" ></i></a>
-           <a href="#" class="social" ><i class="fab fa-flickr flicker" ></i></a>  
-           <a href="#" class="social" ><i class="fab fa-instagram instagram" style="user-select: auto;"></i></a> 
+           <a href="#" class="social" ><i class="fab fa-flickr flicker" ></i></a>
+           <a href="#" class="social" ><i class="fab fa-instagram instagram" style="user-select: auto;"></i></a>
           </div>
           <p id = "rights" style="color: white;">All rights reserved to the Islamic University of Gaza</p>
     </div>
@@ -592,7 +592,7 @@
 
 <script>
     $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
+      $('[data-toggle="tooltip"]').tooltip();
     });
     </script>
 </body>

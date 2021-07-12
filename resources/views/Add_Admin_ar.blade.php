@@ -94,7 +94,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="../CSS/IUG_logo.png"
+            src="{{ asset('CSS/IUG_logo.png') }}"
             alt="Logo"
             style="width: 60px"
             class="float-md-right img-fluid"
@@ -149,8 +149,8 @@
       <h1 class="p-4 display-4 title text-center m-0 p-0">إضافة مسؤول</h1>
     </div>
     <div class="container my-5">
-    <form action="#" id="Add_Admin_Form form" class="form validation row gap" novalidate> 
-        <div id="add-admin" class="col" style="min-width:400px;"> 
+    <form action="#" id="Add_Admin_Form form" class="form validation row gap" novalidate>
+        <div id="add-admin" class="col" style="min-width:400px;">
             <h3 class="text-left" style="color: #333333">
                 <i class="fas fa-user"></i> إضافة مسؤول
               </h3>
@@ -179,7 +179,7 @@
               id="password"
               placeholder="ادخل كلمة السر..."
               name="password"
-              
+
             />
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">الرجاء ملء هذه الخانة.</div>
@@ -194,14 +194,14 @@
               id="password2"
               placeholder="ادخل كلمة السر..."
               name="password2"
-              
+
             />
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">الرجاء ملء هذه الخانة.</div>
           </div>
         </div>
 
-    
+
 
         <div id="respons-admin" class="col" style="min-width:500px;">
           <h3 class="text-left" style="color: #333333">
@@ -258,7 +258,7 @@
      id="footer"
    >
      <img
-       src="..\CSS\IUG_logo.png"
+       src="{{ asset('CSS\IUG_logo.png') }}"
        alt="Logo"
        style="width: 100px; height: 100px"
        class="img-fluid"
@@ -325,6 +325,6 @@
       );
     })();
   </script> -->
-      <script src="../JS/Add_Admin.js"></script>
+      <script src="{{ asset('JS/Add_Admin.js') }}"></script>
   </body>
 </html>

@@ -23,7 +23,7 @@
     <!--  Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href=" ..\CSS\Application_Std_page_ar.css">
+    <link rel="stylesheet" type="text/css" href=" {{ asset('CSS\Application_Std_page_ar.css') }}">
 </head>
 
 <body>
@@ -53,7 +53,7 @@
     <!-- Second Navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light shadow-lg ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="..\CSS\IUG_logo.png" alt="Logo" style="width:60px;"
+            <a class="navbar-brand" href="#"> <img src="{{ asset('CSS\IUG_logo.png') }}" alt="Logo" style="width:60px;"
                     class="float-md-right img-fluid"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
@@ -545,7 +545,7 @@
     <!-- the end of Initative model-->
     <!-- Footer -->
     <div class="jumbotron text-center  rounded-0" style="margin-bottom:0;" id="footer">
-        <img src="..\CSS\IUG_logo.png" alt="Logo" style="width:100px; height: 100px; " class="img-fluid ">
+        <img src="{{ asset('CSS\IUG_logo.png') }}" alt="Logo" style="width:100px; height: 100px; " class="img-fluid ">
         <div>
             <a href="#" class="social"> <i class="fab fa-facebook-square facebook" style="user-select: auto;"></i></a>
             <a href="#" class="social"> <i class="fab fa-twitter-square twitter"></i></a>

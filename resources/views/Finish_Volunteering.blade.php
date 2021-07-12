@@ -37,9 +37,9 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href=" ..\CSS\Application_Std_page_ar.css"
+      href=" {{ asset('CSS\Application_Std_page_ar.css') }}"
     />
-    <link rel="stylesheet" href="..\CSS\Finish_Volunteering.css">
+    <link rel="stylesheet" href="{{ asset('CSS\Finish_Volunteering.css') }}">
   </head>
   <body>
     <!-- First Navbar -->
@@ -94,7 +94,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="../CSS/IUG_logo.png"
+            src="{{ asset('CSS/IUG_logo.png') }}"
             alt="Logo"
             style="width: 60px"
             class="float-md-right img-fluid"
@@ -197,56 +197,56 @@
               <th><a  href="#" data-toggle="modal" data-target="#ResultStudent">علي صقر</a></th>
             <td>10010109</td>
             <th><a  href="#" data-toggle="modal" data-target="#editStudent">
-              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" 
+              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
               class="btn btn-outline my-2 my-sm-0 btn1" >انهاء التطوع</button></a></th>
            </tr>
           <tr>
               <th><a  href="#" data-toggle="modal" data-target="#ResultStudent">Yahia Saqer</a></th>
             <td>121212121</td>
             <th><a  href="#" data-toggle="modal" data-target="#editStudent">
-              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" 
+              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
               class="btn btn-outline my-2 my-sm-0 btn1" >انهاء التطوع</button></a></th>
           </tr>
           <tr>
               <th><a  href="#" data-toggle="modal" data-target="#ResultStudent">Mohsen Saqer</a></th>
             <td>448488489</td>
             <th><a  href="#" data-toggle="modal" data-target="#editStudent">
-              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" 
+              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
               class="btn btn-outline my-2 my-sm-0 btn1" >انهاء التطوع</button></a></th>
           </tr>
           <tr>
               <th><a  href="#" data-toggle="modal" data-target="#ResultStudent">Ali Saqer</a></th>
             <td>10010109</td>
             <th><a  href="#" data-toggle="modal" data-target="#editStudent">
-              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" 
+              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
               class="btn btn-outline my-2 my-sm-0 btn1" >انهاء التطوع</button></a></th>
           </tr>
           <tr>
               <th><a  href="#" data-toggle="modal" data-target="#ResultStudent">Yahia Saqer</a></th>
             <td>121212121</td>
             <th><a  href="#" data-toggle="modal" data-target="#editStudent">
-              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" 
+              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
               class="btn btn-outline my-2 my-sm-0 btn1" >انهاء التطوع</button></a></th>
           </tr>
           <tr>
               <th><a  href="#" data-toggle="modal" data-target="#ResultStudent">Mohsen Saqer</a></th>
             <td>448488489</td>
             <th><a  href="#" data-toggle="modal" data-target="#editStudent">
-              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" 
+              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
               class="btn btn-outline my-2 my-sm-0 btn1" >انهاء التطوع</button></a></th>
           </tr>
           <tr>
               <th><a  href="#" data-toggle="modal" data-target="#ResultStudent">Yahia Saqer</a></th>
             <td>121212121</td>
             <th><a  href="#" data-toggle="modal" data-target="#editStudent">
-              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" 
+              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
               class="btn btn-outline my-2 my-sm-0 btn1" >انهاء التطوع</button></a></th>
           </tr>
           <tr>
               <th><a  href="#" data-toggle="modal" data-target="#ResultStudent">Mohsen Mohsen</a></th>
             <td>448488489</td>
             <th><a  href="#" data-toggle="modal" data-target="#editStudent">
-              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" 
+              <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
               class="btn btn-outline my-2 my-sm-0 btn1" >انهاء التطوع</button></a></th>
           </tr>
         </tbody>
@@ -292,7 +292,7 @@
      </p>
    </div>
    <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-    
+
   </button>
    <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -323,8 +323,8 @@
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">الرجاء ملء هذه الخانة.</div>
         </div></p>
-        
-        
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">اغلاق</button>
@@ -394,9 +394,9 @@
   </script> -->
   <script>
     $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
+      $('[data-toggle="tooltip"]').tooltip();
     });
     </script>
-      <script src="../JS/Add_Admin.js"></script>
+      <script src="{{ asset('JS/Add_Admin.js') }}"></script>
   </body>
 </html>

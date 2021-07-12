@@ -14,14 +14,14 @@
 
   <!--  Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
+
 
   <!-- JQuery (For Bootstrap)  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Popper.js (For Bootstrap)-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
+
  <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
@@ -31,10 +31,10 @@
    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 <!--CSS File-->
-<link rel="stylesheet" type="text/css" href="..\CSS\index.css">
-     
-   
-      
+<link rel="stylesheet" type="text/css" href="{{ asset('CSS\index.css') }}">
+
+
+
    </style>
 </head>
 <body>
@@ -52,17 +52,17 @@
                 <a href="#"> <i class="fab fa-flickr n1 flicker" ></i>  </a>
                 <a href="#"> <i class="fab fa-instagram n1 instagram"></i> </a>
             </div>
-        
+
             <div class="pr-2 py-1" >
                 <a href="#"data-toggle= "tooltip" title="Change to Arabic"> <i class="fas fa-language n1"></i></a>
                 <a href="#" data-toggle="tooltip" title="Sign Out"><i class="fas fa-sign-out-alt n1"></i></a>
             </div>
           </div>
-      
+
           <!--Navbar 2-->
-      
+
           <nav class="navbar navbar-expand-lg  navbar-light bg-light  shadow-lg sticky-top" >
-              <a class="navbar-brand" href="#">    <img src="Logo.png" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
+              <a class="navbar-brand" href="#">    <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -106,8 +106,8 @@
   <div class="row text-center" >
       <div class="Item m-5 col" style="color:#018756">
         <i class="fas fa-male icon1"></i>
-      <p  class="numbers">0</p> 
-       
+      <p  class="numbers">0</p>
+
 
         <p class = "labels">Volunteers</p>
     </div>
@@ -124,12 +124,12 @@
     </div>
     <div class="Item m-5 col" style="color: #F40909;">
         <i class="far fa-building" ></i>
-            <p  class="numbers">0</p> 
+            <p  class="numbers">0</p>
       <p class = "labels">Institutions</p>
   </div>
   </div>
   <div class="d-flex justify-content-center my-5 text-center" >
-    
+
   <div class="Item mx-5" style="color:#018756">
     <i class="fas fa-fist-raised" ></i>
      <p  class="numbers">0</p>
@@ -164,7 +164,7 @@
         <a class="nav-link" data-toggle="tab" href="#Intiative">Intiative</a>
       </li>
     </ul>
-  
+
     <!-- Search pages -->
     <div class="tab-content mb-5">
       <div id="Student" class="container tab-pane active"><br>
@@ -240,7 +240,7 @@
                   </tbody>
                 </table>
               </div>
-              
+
         </div>
       </div>
       <div id="Institution" class="container tab-pane fade"><br>
@@ -325,7 +325,7 @@
                   </tbody>
                 </table>
               </div>
-              
+
         </div>
       </div>
       <div id="Intiative" class="container tab-pane fade"><br>
@@ -431,23 +431,23 @@
                 </table>
               </div>
               </div>
-              
+
         </div>
       </div>
-     
+
     </div>
   </div>
-       
+
 <div class="modal fade" id="editInstitution">
   <div class="modal-dialog">
     <div class="modal-content">
-    
+
       <!-- Modal Header -->
       <div class="modal-header">
         <h4 class="modal-title">Edit An Institution</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
-      
+
       <!-- Modal body -->
       <div class="modal-body">
           <form action="#" class="validation" novalidate>
@@ -469,7 +469,7 @@
               <div class="valid-feedback">Valid.</div>
               <div class="invalid-feedback">Please fill out this field.</div>
             </div>
-       
+
             <div class="form-group my-4">
               <label for="Password" class="mt-4">Password<span class="text-danger">*</span>:</label>
               <input type="Password" class="form-control" id="Password" placeholder="Enter institution type..." name="Password" required>
@@ -482,16 +482,16 @@
               <div class="valid-feedback">Valid.</div>
               <div class="invalid-feedback">Please fill out this field.</div>
             </div>
-  
+
           </form>
-             
+
           </div>
-      
+
       <!-- Modal footer -->
       <div class="modal-footer d-flex justify-content-start">
           <button type="button" class="btn btn1 m-1" data-dismiss="modal">Submit</button>
         </div>
-      
+
     </div>
   </div>
 </div>
@@ -499,13 +499,13 @@
   <div class="modal fade" id="editIntiative">
     <div class="modal-dialog">
       <div class="modal-content">
-      
+
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Intiative Name</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
-        
+
         <!-- Modal body -->
         <div  class="modal-body">
           <form action="#" class="validation" novalidate>
@@ -557,13 +557,13 @@
 
           </form>
             </div>
-        
+
         <!-- Modal footer -->
         <div class="modal-footer d-flex justify-content-start">
           <button type="button" class="btn  m-1 btn1" data-dismiss="modal">OK</button>
-          
+
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -572,13 +572,13 @@
    <div class="modal fade" id="editStudent">
     <div class="modal-dialog">
       <div class="modal-content">
-      
+
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Student Name</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
-        
+
         <!-- Modal body -->
         <div class="modal-body">
             <p>Name: XXXXXX</p>
@@ -594,13 +594,13 @@
             </form>
 
             </div>
-        
+
         <!-- Modal footer -->
         <div class="modal-footer d-flex justify-content-start">
           <button type="button" class="btn  m-1 btn1" data-dismiss="modal">OK</button>
-          
+
         </div>
-        
+
       </div>
     </div>
 </div>
@@ -609,24 +609,24 @@
   <div class="modal fade" id="resultIntiative">
     <div class="modal-dialog">
       <div class="modal-content">
-      
+
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Intiative Name</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
-        
+
         <!-- Modal body -->
         <div class="modal-body">
             <p>Intiative data goes here</p>
             </div>
-        
+
         <!-- Modal footer -->
         <div class="modal-footer d-flex justify-content-start">
           <button type="button" class="btn  m-1 btn1" data-dismiss="modal">OK</button>
-          
+
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -635,24 +635,24 @@
   <div class="modal fade" id="resultInstitustion">
     <div class="modal-dialog">
       <div class="modal-content">
-      
+
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Institustion Name</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
-        
+
         <!-- Modal body -->
         <div class="modal-body">
             <p>Institustion data goes here</p>
             </div>
-        
+
         <!-- Modal footer -->
         <div class="modal-footer d-flex justify-content-start">
           <button type="button" class="btn  m-1 btn1" data-dismiss="modal">OK</button>
-          
+
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -661,24 +661,24 @@
   <div class="modal fade" id="ResultStudent">
     <div class="modal-dialog">
       <div class="modal-content">
-      
+
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Student Name</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
-        
+
         <!-- Modal body -->
         <div class="modal-body">
             <p>Student data goes here</p>
             </div>
-        
+
         <!-- Modal footer -->
         <div class="modal-footer d-flex justify-content-start">
           <button type="button" class="btn  m-1 btn1" data-dismiss="modal">OK</button>
-          
+
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -690,13 +690,13 @@
 <div class="modal fade" id="Reset">
     <div class="modal-dialog">
       <div class="modal-content">
-      
+
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Reset</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
-        
+
         <!-- Modal body -->
         <div class="modal-body">
            <form class="form-inline">
@@ -707,27 +707,27 @@
 
               </form>
             </div>
-        
+
         <!-- Modal footer -->
         <div class="modal-footer d-flex justify-content-start">
           <button type="button" class="btn btn-primary m-1" data-dismiss="modal">Send</button>
           <button type="button" class="btn btn-danger m-1" data-dismiss="modal">Cancel</button>
-          
+
         </div>
-        
+
       </div>
     </div>
   </div>
     <!-- Footer -->
 
     <div class="jumbotron text-center  rounded-0" style="margin-bottom:0;" id= "footer">
-        <img src="Logo.png" alt="Logo" style="width:100px; height: 100px; "  class="img-fluid ">  
+        <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:100px; height: 100px; "  class="img-fluid ">
         <div>
            <a href="#" class="social" > <i class="fab fa-facebook-square facebook" style="user-select: auto;"></i></a>
            <a href="#" class="social" > <i class="fab fa-twitter-square twitter" ></i></a>
            <a href="#" class="social" >  <i class="fab fa-youtube-square youtube" ></i></a>
-           <a href="#" class="social" ><i class="fab fa-flickr flicker" ></i></a>  
-           <a href="#" class="social" ><i class="fab fa-instagram instagram" style="user-select: auto;"></i></a> 
+           <a href="#" class="social" ><i class="fab fa-flickr flicker" ></i></a>
+           <a href="#" class="social" ><i class="fab fa-instagram instagram" style="user-select: auto;"></i></a>
           </div>
           <p id = "rights" style="color: white;">All rights reserved to the Islamic University of Gaza</p>
     </div>
@@ -737,7 +737,7 @@
 
 <script>
     $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
+      $('[data-toggle="tooltip"]').tooltip();
     });
     </script>
 </body>

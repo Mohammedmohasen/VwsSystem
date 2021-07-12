@@ -14,14 +14,14 @@
 
   <!--  Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
+
 
   <!-- JQuery (For Bootstrap)  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Popper.js (For Bootstrap)-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
+
  <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
@@ -31,10 +31,10 @@
    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 <!--CSS File-->
-<link rel="stylesheet" type="text/css" href="..\CSS\DOV_index.css">
-     
-   
-      
+<link rel="stylesheet" type="text/css" href="{{ asset('CSS\DOV_index.css') }}">
+
+
+
    </style>
 </head>
 <body>
@@ -52,17 +52,17 @@
                 <a href="#"> <i class="fab fa-flickr n1 flicker" ></i>  </a>
                 <a href="#"> <i class="fab fa-instagram n1 instagram"></i> </a>
             </div>
-        
+
             <div class="pr-2 py-1" >
                 <a href="#"data-toggle= "tooltip" title="Change to Arabic"> <i class="fas fa-language n1"></i></a>
                 <a href="#" data-toggle="tooltip" title="Sign Out"><i class="fas fa-sign-out-alt n1"></i></a>
             </div>
           </div>
-      
+
           <!--Navbar 2-->
-      
+
           <nav class="navbar navbar-expand-lg  navbar-light bg-light  shadow-lg sticky-top" >
-              <a class="navbar-brand" href="#">    <img src="Logo.png" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
+              <a class="navbar-brand" href="#">    <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -104,13 +104,13 @@
               <div class="row">
                   <div class="col-sm-3">
                       <div class="d-flex flex-column">
-                      <h3 class="text-left" style=" color: #333333;"> <i class="fas fa-inbox ml-4 mr-2"></i> 
+                      <h3 class="text-left" style=" color: #333333;"> <i class="fas fa-inbox ml-4 mr-2"></i>
                           Inbox <span class="badge badge-danger">20</span></h3>
                           <a  href="#" data-toggle="modal" data-target="#newMessage">
                           <button class="btn btn-outline my-2 w-100 btn1" ><i class="fas fa-pencil-alt mr-1"></i>New Message</button>
                           </a>
                           <hr class="w-100 ml-0">
-                       
+
                   </div>
                   </div>
                   <div class="col-sm-9">
@@ -137,84 +137,84 @@
                                           <th>Sender Name</th>
                                           <th>Title</th>
                                           <th>Time</th>
-                                       
+
                                       </thead>
                                       <tbody>
                                         <tr>
-                                            
+
                                             <td>Yahia</td>
                                             <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                             <td>10:50 PM</td>
-            
-                                        
+
+
                                         </tr>
                                         <tr>
-                                            
+
                                             <td>Yahia</td>
                                             <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                             <td>10:50 PM</td>
-            
-                    
+
+
                                         </tr>
                                         <tr>
-                                           
+
                                             <td>Yahia</td>
                                             <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                             <td>10:50 PM</td>
-            
-                    
+
+
                                         </tr>
                                         <tr>
-                                            
+
                                           <td>Yahia</td>
                                           <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                           <td>10:50 PM</td>
-            
-                    
+
+
                                         </tr>
                                         <tr>
-                                            
+
                                             <td>Yahia</td>
                                             <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                             <td>10:50 PM</td>
-            
-                    
+
+
                                         </tr>
                                         <tr>
-                                         
+
                                             <td>Yahia</td>
                                             <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                             <td>10:50 PM</td>
-            
-                    
+
+
                                         </tr>
                                         <tr>
-                                           
+
                                             <td>Yahia</td>
                                           <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                           <td>10:50 PM</td>
-            
-                    
+
+
                                         </tr>
                                         <tr>
-                                        
+
                                             <td>Yahia</td>
                                             <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                             <td>10:50 PM</td>
-            
-                    
+
+
                                         </tr>
                                         <tr>
-                                          
+
                                             <td>Yahia</td>
                                             <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                             <td>10:50 PM</td>
                                         </tr>
                                       </tbody>
                                   </table>
-                              
+
                               </div>
-  
+
                               </div>
                               <div class="tab-pane container fade" id="Intiative Suggestions">
                                   <div>
@@ -223,75 +223,75 @@
                                               <th>Sender Name</th>
                                               <th>Title</th>
                                               <th>Time</th>
-                                           
+
                                           </thead>
                                           <tbody>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                                            
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                               
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                               <td>Yahia</td>
                                               <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                               <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                             
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                               
+
                                                 <td>Yahia</td>
                                               <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                               <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                            
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                              
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
@@ -299,7 +299,7 @@
                                           </tbody>
                                       </table>
                                   </div>
-  
+
                               </div>
                               <div class="tab-pane container fade" id="Finish Reports">
                                   <div>
@@ -308,75 +308,75 @@
                                               <th>Sender Name</th>
                                               <th>Title</th>
                                               <th>Time</th>
-                                           
+
                                           </thead>
                                           <tbody>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                                            
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                               
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                               <td>Yahia</td>
                                               <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                               <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                             
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                               
+
                                                 <td>Yahia</td>
                                               <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                               <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                            
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                              
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
@@ -384,7 +384,7 @@
                                           </tbody>
                                       </table>
                                   </div>
-  
+
                               </div>
                               <div class="tab-pane container fade" id="Requested Volunteers">
                                   <div >
@@ -393,75 +393,75 @@
                                               <th>Sender Name</th>
                                               <th>Title</th>
                                               <th>Time</th>
-                                           
+
                                           </thead>
                                           <tbody>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                                            
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                               
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                               <td>Yahia</td>
                                               <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                               <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                                
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                             
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                               
+
                                                 <td>Yahia</td>
                                               <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                               <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                            
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
-                
-                        
+
+
                                             </tr>
                                             <tr>
-                                              
+
                                                 <td>Yahia</td>
                                                 <th><a  href="#" data-toggle="modal" data-target="#rest">A meaningless message.</a></th>
                                                 <td>10:50 PM</td>
@@ -469,58 +469,58 @@
                                           </tbody>
                                       </table>
                                   </div>
-  
+
                               </div>
-  
+
                             </div>
                         </div>
                   </div>
-                   
-                        
+
+
                   </div>
                 </div>
-  
+
                   </div>
               </div>
               </div>
-              
-  
+
+
   <!--Message Modal-->
     <div class="modal fade" id="rest">
       <div class="modal-dialog">
         <div class="modal-content">
-        
+
           <!-- Modal Header -->
           <div class="modal-header">
             <h4 class="modal-title">.A meaningless message</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
-          
+
           <!-- Modal body -->
           <div class="modal-body">
               <p>A meaningless message.A meaningless message.A meaningless message.A meaningless message.A meaningless message.</p>
               </div>
-          
+
           <!-- Modal footer -->
           <div class="modal-footer d-flex justify-content-start">
               <button type="button" class="btn btn-primary m-1" data-dismiss="modal">Approve</button>
-              <button type="button" class="btn btn-danger m-1" data-dismiss="modal">Deny</button>   
+              <button type="button" class="btn btn-danger m-1" data-dismiss="modal">Deny</button>
             </div>
-          
+
         </div>
       </div>
     </div>
-  
+
     <div class="modal fade" id="Reply">
       <div class="modal-dialog">
         <div class="modal-content">
-        
+
           <!-- Modal Header -->
           <div class="modal-header">
             <h4 class="modal-title">Write a reply</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
-          
+
           <!-- Modal body -->
           <div class="modal-body">
               <form method="post">
@@ -533,84 +533,84 @@
                <div class="modal-footer d-flex justify-content-start">
                 <button type="button" class="btn btn-primary m-1" data-dismiss="modal">Send</button>
                 <button type="button" class="btn btn-danger m-1" data-dismiss="modal">Cancel</button>
-                
+
               </div>
-              
+
             </div>
           </div>
         </div>
-      
-  
+
+
               <!--Write a message modal-->
-  
+
               <div class="modal fade" id="newMessage">
                 <div class="modal-dialog">
                   <div class="modal-content">
-                  
+
                     <!-- Modal Header -->
                     <div class="modal-header">
                       <h4 class="modal-title">Write a message</h4>
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
-                    
+
                     <!-- Modal body -->
                     <div class="modal-body">
                         <form method="post">
                           <div class="form-group my-4">
                             <label for="name" class="mt-4">To<span class="text-danger">*</span>:</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter name..." name="name" required>
-                     
-                          </div> 
+
+                          </div>
                           <div class="form-group my-4">
                             <label for="title" class="mt-4">Title<span class="text-danger">*</span>:</label>
                             <input type="text" class="form-control" id="title" placeholder="Enter title..." name="title" required>
-          
+
                           </div>
                           <div class="form-group my-4">
                             <label for="title" class="mt-4">Message<span class="text-danger">*</span>:</label>
                             <br>
                             <textarea id="mytextarea" name="mytextarea" rows="10" cols="50" required>
                             </textarea>
-                     
+
                           </div>
                           </form>
                         </div>
-  
-  
-          
+
+
+
           <!-- Modal footer -->
           <div class="modal-footer d-flex justify-content-start">
             <button type="button" class="btn btn-primary m-1" data-dismiss="modal">Send</button>
             <button type="button" class="btn btn-danger m-1" data-dismiss="modal">Cancel</button>
-            
+
           </div>
-          
+
         </div>
       </div>
     </div>
-  
-  
-  
+
+
+
               <!-- Footer -->
-  
+
       <div class="jumbotron text-center  rounded-0" style="margin-bottom:0;" id= "footer">
-          <img src="Logo.png" alt="Logo" style="width:100px; height: 100px; "  class="img-fluid ">  
+          <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:100px; height: 100px; "  class="img-fluid ">
           <div>
              <a href="#" class="social" > <i class="fab fa-facebook-square facebook" style="user-select: auto;"></i></a>
              <a href="#" class="social" > <i class="fab fa-twitter-square twitter" ></i></a>
              <a href="#" class="social" >  <i class="fab fa-youtube-square youtube" ></i></a>
-             <a href="#" class="social" ><i class="fab fa-flickr flicker" ></i></a>  
-             <a href="#" class="social" ><i class="fab fa-instagram instagram" style="user-select: auto;"></i></a> 
+             <a href="#" class="social" ><i class="fab fa-flickr flicker" ></i></a>
+             <a href="#" class="social" ><i class="fab fa-instagram instagram" style="user-select: auto;"></i></a>
             </div>
             <p id = "rights" style="color: white;">All rights reserved to the Islamic University of Gaza</p>
       </div>
-  
-  
+
+
               <!--Tooltip Script-->
-  
+
   <script>
       $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();   
+        $('[data-toggle="tooltip"]').tooltip();
       });
       </script>
   </body>

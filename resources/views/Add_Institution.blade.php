@@ -59,7 +59,7 @@
       <!--Navbar 2-->
   
       <nav class="navbar navbar-expand-lg  navbar-light bg-light  shadow-lg sticky-top" >
-          <a class="navbar-brand" href="#">    <img src="Logo.png" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
+          <a class="navbar-brand" href="#">    <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -223,7 +223,7 @@
    <!-- Footer -->
 
 <div class="jumbotron text-center  rounded-0" style="margin-bottom:0;" id= "footer">
-  <img src="Logo.png" alt="Logo" style="width:100px; height: 100px; "  class="img-fluid ">  
+  <img src="{{ asset('CSS/IUG_logo') }}" alt="Logo" style="width:100px; height: 100px; "  class="img-fluid ">  
   <div>
      <a href="#" class="social" > <i class="fab fa-facebook-square facebook" style="user-select: auto;"></i></a>
      <a href="#" class="social" > <i class="fab fa-twitter-square twitter" ></i></a>
