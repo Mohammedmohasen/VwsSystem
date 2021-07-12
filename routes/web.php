@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Institution_Home');
+    return view('Suggest_initative_ar');
 });

@@ -93,7 +93,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="../CSS/IUG_logo.png"
+            src="{{ asset('CSS/IUG_logo.png') }}"
             alt="Logo"
             style="width: 60px"
             class="float-md-right img-fluid"
@@ -156,7 +156,7 @@
       <div class="col-sm-9">
         <div class="container">
           <div class="tab-content pt-4">
-            
+
             <div class="tab-pane container active" id="Voluntary Requests">
               <div class="container">
                 <table class="table table-hover">
@@ -360,7 +360,7 @@
     id="footer"
   >
     <img
-      src="..\CSS\IUG_logo.png"
+      src="{{ asset('CSS\IUG_logo.png') }}"
       alt="Logo"
       style="width: 100px; height: 100px"
       class="img-fluid"

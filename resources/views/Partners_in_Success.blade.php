@@ -14,14 +14,14 @@
 
   <!--  Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
+
 
   <!-- JQuery (For Bootstrap)  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Popper.js (For Bootstrap)-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
+
  <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
@@ -31,10 +31,10 @@
    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 <!--CSS File-->
-<link rel="stylesheet" type="text/css" href="..\CSS\Home_index.css">
-     
-   
-      
+<link rel="stylesheet" type="text/css" href="{{ asset('CSS\Home_index.css') }}">
+
+
+
 </head>
 <body>
         <!--Navbar 1-->
@@ -48,16 +48,16 @@
                 <a href="#"> <i class="fab fa-flickr n1 flicker" ></i>  </a>
                 <a href="#"> <i class="fab fa-instagram n1 instagram"></i> </a>
             </div>
-        
+
             <div class="pr-2 py-1" >
                 <a href="#"data-toggle= "tooltip" title="Change to Arabic"> <i class="fas fa-language n1"></i></a>
             </div>
           </div>
-      
+
           <!--Navbar 2-->
-      
+
           <nav class="navbar navbar-expand-lg  navbar-light bg-light  shadow-lg sticky-top" >
-              <a class="navbar-brand" href="#">    <img src="Logo.png" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
+              <a class="navbar-brand" href="#">    <img src="{{ asset('CSS/IUG_logo.png')}}" alt="Logo" style="width:60px; " class="float-md-right img-fluid ">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -88,7 +88,7 @@
 
 
         <div class="container my-5">
-            <h3 class="text-center my-5" style=" color: #333333;"><i class="far fa-building" ></i>  
+            <h3 class="text-center my-5" style=" color: #333333;"><i class="far fa-building" ></i>
                 Check Them Out!</h3>
                 <div class="d-flex justify-content-center mt-5 mb-3">
                 <form class="form-inline">
@@ -99,8 +99,8 @@
               <div class="row d-flex justify-content-center">
                 <div class="card col-sm-3 mx-4" style="width:300px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center my-4">
@@ -112,12 +112,12 @@
                     <div class="d-flex justify-content-center">
                         <a href="#"><i class="fas fa-link hyperlink"></i></a>
                     </div>
-    
+
                   </div>
                   <div class="card col-sm-3 mx-4" style="width:400px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center">
@@ -132,8 +132,8 @@
                   </div>
                   <div class="card col-sm-3 mx-4" style="width:400px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center">
@@ -146,17 +146,17 @@
                         <a href="#"><i class="fas fa-link hyperlink"></i></a>
                     </div>
                   </div>
-            
-    
-    
-    
-    
+
+
+
+
+
               </div>
               <div class="row d-flex justify-content-center my-4">
                 <div class="card col-sm-3 mx-4" style="width:300px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center">
@@ -171,8 +171,8 @@
                   </div>
                   <div class="card col-sm-3 mx-4" style="width:400px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center">
@@ -187,8 +187,8 @@
                   </div>
                   <div class="card col-sm-3 mx-4" style="width:400px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center">
@@ -201,14 +201,14 @@
                         <a href="#"><i class="fas fa-link hyperlink"></i></a>
                     </div>
                   </div>
-    
-    
+
+
               </div>
               <div class = "row d-flex justify-content-center my-4">
                 <div class="card col-sm-3 mx-4" style="width:300px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center">
@@ -223,8 +223,8 @@
                   </div>
                   <div class="card col-sm-3 mx-4" style="width:400px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center">
@@ -239,8 +239,8 @@
                   </div>
                   <div class="card col-sm-3 mx-4" style="width:400px">
                     <div class="d-flex justify-content-center my-3">
-                    <img class="card-img-top rounded-circle " src="v.jpg" alt="Card image" style="width:150px; height: 150px;">
-                    
+                    <img class="card-img-top rounded-circle " src="{{ asset('CSS/v.jpg')}}" alt="Card image" style="width:150px; height: 150px;">
+
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-column text-center">
@@ -253,7 +253,7 @@
                         <a href="#"><i class="fas fa-link hyperlink"></i></a>
                     </div>
                   </div>
-    
+
               </div>
               <div class="container d-flex justify-content-center">
                 <ul class="pagination m-3">
@@ -268,19 +268,19 @@
               </div>
           </div>
           </div>
-    
-        
-        
-        
-        
+
+
+
+
+
     </div>
 
-        
 
 
 
 
-            
+
+
                 <!-- Footer -->
 <footer class="bg-dark text-lg-start" style="color: white;" >
     <!-- Grid container -->
@@ -307,15 +307,15 @@
               </div>
               <button class="btn btn-outline my-2 my-sm-0 btn2" type="submit">Send</button>
           </form>
-  
-          
+
+
         </div>
         <!--Grid column-->
-  
+
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase footerTitle mb-4">Useful Links</h5>
-  
+
           <ul class="list-unstyled mb-0">
             <li class="footerLink">
               <a href="#" class="text-white ">Articles</a>
@@ -335,15 +335,15 @@
               <li class="footerLink">
                 <a href="#" class="text-white ">Staff</a>
               </li>
-              
+
           </ul>
         </div>
         <!--Grid column-->
-  
+
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase footerTitle mb-4">Contact Us</h5>
-  
+
           <ul class="list-unstyled">
             <li class="footerLink">
               <a href="#!" class="text-white "><i class="fas fa-phone mr-2"></i>00-00000000</a>
@@ -361,7 +361,7 @@
       <!--Grid row-->
     </div>
     <!-- Grid container -->
-  
+
     <!-- Copyright -->
     <div class="text-center p-3 d-flex justify-content-between" style="background-color: #666666">
         <div class="pl-2 py-1" >
@@ -381,7 +381,7 @@
 
 <script>
     $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
+      $('[data-toggle="tooltip"]').tooltip();
     });
     </script>
 </body>

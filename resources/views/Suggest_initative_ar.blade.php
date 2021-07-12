@@ -37,7 +37,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href=" ..\CSS\Susggest_initative_ar.css"
+      href=" {{ asset('CSS\Susggest_initative_ar.css') }}"
     />
   </head>
 
@@ -107,7 +107,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="../CSS/IUG_logo.png"
+            src="{{ asset('CSS/IUG_logo.png') }}"
             alt="Logo"
             style="width: 60px"
             class="float-md-right img-fluid"
@@ -154,7 +154,7 @@
       </div>
     <!--Instruction box-->
     <div class="container my-4">
-      
+
       <div class="card-body" id="Instruction_box">
         <h6>
           يمكن/ي عزيزي/تي الطالب/ة من تقديم طلب اقتراح مبادرة جديدة غير مدرجة
@@ -277,7 +277,7 @@
                 <label for="Initiative_Details_label">تفاصيل المبادرة<span class="text-danger">*</span></label>
               </div>
             </div>
-            
+
           </div>
           <div class="pt-1 d-flex justify-content-center">
             <button
@@ -298,7 +298,7 @@
       id="footer"
     >
       <img
-        src="..\CSS\IUG_logo.png"
+        src="{{ asset('CSS\IUG_logo.png') }}"
         alt="Logo"
         style="width: 100px; height: 100px"
         class="img-fluid"
