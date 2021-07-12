@@ -37,7 +37,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href=" ..\CSS\Application_Std_page_ar.css"
+      href="{{ asset('CSS\Application_Std_page_ar.css')}}"
     />
   </head>
   <body>
@@ -93,7 +93,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="../CSS/IUG_logo.png"
+            src="{{ asset('CSS/IUG_logo.png')}}"
             alt="Logo"
             style="width: 60px"
             class="float-md-right img-fluid"
@@ -239,7 +239,7 @@
         </button>
       </div>
       </form>
-      
+
     </div>
     <!-- Footer -->
     <div
@@ -248,7 +248,7 @@
       id="footer"
     >
       <img
-        src="..\CSS\IUG_logo.png"
+        src="{{ asset('CSS\IUG_logo.png') }}"
         alt="Logo"
         style="width: 100px; height: 100px"
         class="img-fluid"
