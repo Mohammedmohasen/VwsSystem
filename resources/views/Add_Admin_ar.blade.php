@@ -37,9 +37,9 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href=" ..\CSS\Application_Std_page_ar.css"
+      href=" {{ asset('CSS\Application_Std_page_ar.css') }}"
     />
-    <link rel="stylesheet" href="..\CSS\Admin_DOV_page_ar.css">
+    <link rel="stylesheet" href="{{ asset('CSS\Admin_DOV_page_ar.css') }}">
   </head>
   <body>
     <!-- First Navbar -->
