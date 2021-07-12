@@ -1,0 +1,259 @@
+.n1{
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+.n2{
+  color: white;
+  font-size: 19px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.facebook:hover{
+    cursor: pointer;
+    color: #5D82D1;
+
+}
+.twitter:hover{
+    color: #009BEB;
+}
+.youtube:hover{
+    color: #EF4E41;
+}
+.flicker:hover{
+    color: #FF0083;
+}
+.instagram:hover{
+ cursor: pointer;
+ color: #0095F6;
+}
+.title{
+  background-color: #1C9493;
+  color:white;
+  width: 100%;
+  height: 102%;
+ 
+  
+ }
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  }
+  .btn1{
+    border: 1px solid #EE6225;
+    color: #EE6225;
+  }
+  .btn1:hover{
+    background-color: #EE6225;
+    color: #fff;
+  }
+  .btn2{
+    border:1px solid #EE6225;
+    background-color: #EE6225;
+    color: white; 
+   }
+   .btn2:hover{
+    border:1px solid #d44d12;
+    background-color: #d44d12;
+    color: white; 
+
+   }
+   .footerTitle{
+       border-bottom: 1px solid white;
+       padding-bottom: 10px;
+       
+   }
+   .footerLink{
+       border-bottom: 1px solid #666666;
+       padding-bottom: 10px;
+       padding-top: 4px;
+   }
+   .learnTitle{
+    border-bottom: 1px solid #1C9493;
+    color: #1C9493;
+   }
+
+   .mainCard{
+       color: white;
+       border-radius: 0;
+       background-color: #F40808;
+       height: 284px;
+
+       
+
+   }
+   .btn3{
+       border: 3px solid white;
+       color: white;
+       background-color: #F40808;
+
+   }
+   .btn3:hover{
+    border: 3px solid white;
+    color: #F40808;
+    background-color: white;
+
+}
+.btn4{
+    border: 3px solid white;
+    color: white;
+    background-color: #EF6226;
+}
+.btn4:hover{
+ border: 3px solid white;
+ color: #EF6226;
+  background-color: white;
+
+}
+.news{
+    width: 80%
+}
+th{
+    background-color: #EF6226;
+    color: white;
+}
+td>a{
+    color: #EF6226;
+    text-decoration: none;
+}
+td>a:hover{
+    color: #EF6226;
+    text-decoration: #EF6226
+
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #EE6225; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f04d08; 
+  }
+  
+
+  #Instructions{
+    /* position: relative;
+    left: -60px;
+    padding-left: -400px;*/
+    width: 100%;
+    height: 100%;
+    background-image: url("v.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(17, 17, 17, 0.3);
+    
+    
+    
+    }
+    
+    .Item>i{
+    font-size: 100px;
+    }
+    .numbers{
+    font-size: 50px;
+    }
+    .labels{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'sans-serif';
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+    }
+
+    .back {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23EF6226' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+       }
+       
+       .forward {
+         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23EF6226' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+       }
+
+  
+
+    .mail:hover{
+        color: #F7659C;
+    }
+
+    .pptou{
+        color: white;
+        text-decoration: none;
+    }
+
+    .pptou:hover{
+        color: white;
+        text-decoration: none;
+    }
+
+    .pagination > li > a
+    {
+        background-color: white;
+        color: #d44d12;
+    }
+    
+    .pagination > li > a:focus,
+    .pagination > li > a:hover,
+    .pagination > li > span:focus,
+    .pagination > li > span:hover
+    {
+        color: #d44d12;
+        background-color: #eee;
+        border-color: #ddd;
+    }
+    
+    .pagination > .active > a
+    {
+        color: white;
+        background-color: #d44d12 !Important;
+        border: solid 1px #d44d12 !Important;
+    }
+    
+    .pagination > .active > a:hover
+    {
+        background-color: #d44d12 !Important;
+        border: solid 1px #d44d12;
+    }
+    
+.hyperlink {
+  font-size: 25px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.hyperlink:hover {
+  font-size: 25px;
+  color: #d44d12;
+  margin-bottom: 20px;
+}
+
+.contact{
+  border: 2px solid #d44d12;
+  border-radius: 5px;
+  color: #343A40;
+}
+.paragraph{
+  margin-bottom: 100px;
+}
+
+.paraTitle{
+  color:#d44d12
+}
+#footer{
+  background-color: #333333;
+}
+
+.social{
+  color: white;
+  font-size: 30px;
+ margin: 20px 5px 20px 5px;
+}

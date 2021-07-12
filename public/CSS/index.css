@@ -1,0 +1,223 @@
+.n1{
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+.n2{
+  color: white;
+  font-size: 19px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.facebook:hover{
+    cursor: pointer;
+    color: #5D82D1;
+
+}
+.twitter:hover{
+    color: #009BEB;
+}
+.youtube:hover{
+    color: #EF4E41;
+}
+.flicker:hover{
+    color: #FF0083;
+}
+.instagram:hover{
+ cursor: pointer;
+ color: #0095F6;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  }
+#resetButton{
+ border:1px solid #EE6225;
+ background-color: #EE6225;
+ color: white; 
+ width: 100%; 
+ height: 50%;
+ font-size:medium;
+ font-weight: bolder;
+}
+#resetButton:hover{
+ border:1px solid #d44d12;
+ background-color: #d44d12;
+}
+.title{
+ background-color: #1C9493;
+ color:white;
+ width: 100%;
+ height: 102%;
+
+ 
+}
+#Instructions{
+/* position: relative;
+left: -60px;
+padding-left: -400px;*/
+width: 100%;
+height: 100%;
+background-image: url("v.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+box-shadow:inset 0 0 0 2000px rgba(17, 17, 17, 0.3);
+
+
+
+}
+
+.Item>i{
+font-size: 100px;
+}
+.numbers{
+font-size: 50px;
+}
+.labels{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'sans-serif';
+color: #fff;
+font-size: 30px;
+font-weight: bolder;
+}
+.nav-link{
+  color: #EE6225;
+}
+.nav-link:hover{
+ color: #EE6225;
+
+}
+th>a{
+  text-decoration: none;
+  color:#EE6225
+}
+th>a:hover{
+ text-decoration: none;
+  color: #EE6225;
+  
+}
+.btn1{
+  border: 1px solid #EE6225;
+  color: #EE6225;
+}
+.btn1:hover{
+  background-color: #EE6225;
+  color: #fff;
+}
+#footer{
+  background-color: #333333;
+}
+.social{
+  color: white;
+  font-size: 30px;
+ margin: 20px 5px 20px 5px;
+}
+
+/*Mail Page*/
+
+.mail-nav>.nav-link{
+  margin-left: 10px;
+}
+
+.mail-nav:hover{
+  border-left: 2px solid #EE6225;
+  background-color: #F6F6F6;
+}
+
+.mail-nav.active{
+  border-left: 2px solid #EE6225;
+  background-color: #F6F6F6;
+}
+.btn2{
+
+  color: white;
+
+  background-color: #d44d12;
+
+}
+
+.btn2:hover{
+  color: white;
+
+  background-color: #b43d0a;
+}
+
+.control{
+  color: white;
+  -webkit-text-stroke: 1px #333333;
+}
+
+.stars:hover{
+  color: yellow;
+  cursor: pointer;
+}
+
+.stars:active{
+  color: yellow;
+  cursor: pointer;
+}
+
+.bookmarks:hover{
+  color: #DC3545;
+  cursor: pointer;
+}
+
+.bookmarks:active{
+  color: #DC3545;
+  cursor: pointer;
+}
+.pagination > li > a
+{
+    background-color: white;
+    color: #d44d12;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #d44d12;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #d44d12 !Important;
+    border: solid 1px #d44d12 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #d44d12 !Important;
+    border: solid 1px #d44d12;
+}
+
+/*Announcments pag*/
+
+time{
+  font-size: medium;
+  color: #6D6D6E;
+}
+
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #EE6225; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f04d08; 
+  }

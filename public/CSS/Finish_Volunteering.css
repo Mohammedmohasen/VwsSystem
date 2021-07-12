@@ -1,0 +1,62 @@
+*{
+
+}
+.hr{
+    margin: 20px;
+}
+#add-admin{
+
+}
+
+#respons-admin{
+
+}
+
+#body-container {
+margin: 50px;
+padding: 0px;
+/* max-width: 100%; */
+}
+
+#Instruction_box{
+margin: 0px;
+}
+
+#try{
+  height:70px;
+}
+
+label{}
+
+input{
+    /* max-width: 300px; */
+}
+
+th,td {
+  /* padding: 5px; */
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+
+table {
+    text-align: right;
+    position: relative;
+    border-collapse: collapse; 
+  }
+  th, td {
+    font-size: 15px;
+    padding: 0.25rem;
+  }
+  tr.red th {
+    background: red;
+    color: white;
+  }
+  /* th {
+    background: white;
+    position: sticky;
+    top: 0; 
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  } */
+
+
+
