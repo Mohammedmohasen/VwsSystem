@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class suggest_initiative extends Model
 {
     use HasFactory;
+    protected $table = 'suggest_initiative';
 }
