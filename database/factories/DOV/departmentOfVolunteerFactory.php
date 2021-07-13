@@ -22,7 +22,7 @@ class departmentOfVolunteerFactory extends Factory
     public function definition()
     {
         return [
-            //
+            
         ];
     }
 }
