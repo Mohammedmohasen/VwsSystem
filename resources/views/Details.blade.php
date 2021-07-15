@@ -68,20 +68,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="Student_Home.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Application_Std_page_ar.html">Apply for Volunteer Work</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Suggest_initative_ar.html">Suggest Intiative</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Student_mail_ar.html">Mail</a>
-                  </li>
-                </ul>
+                @include('include.stdnavbaren')
               </div>
             </nav>
 

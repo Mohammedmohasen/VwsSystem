@@ -111,36 +111,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="DOV_Home.html">الصفحة الرئيسية</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="DOV_Mail.html">البريد</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Announcments.html">إضافة إعلانات أو أخبار</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Add_Institution.html">إضافة مؤسسة</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                tabindex="-1"
-                aria-current="page"
-                href="Add__initative_ar.html"
-              >
-                إضافة مبادرة
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Add_Admin_ar.html">إضافة مسؤول</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.flickr.com/photos/iugaza/"">إضافة صورة</a>
-            </li>
-          </ul>
+         @include('include.dovnavbar')
         </div>
       </div>
     </nav>

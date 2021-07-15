@@ -64,17 +64,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="Institution_Home.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Finish_Volunteering.html">Finish Volunteering</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="institution_mail_ar.html">Mail</a>
-                  </li>
-                </ul>
+            @include('include.instuationnavbaren')
               </div>
             </nav>
 

@@ -112,26 +112,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="Student_Home.html">الصفحة الرئيسية</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Application_Std_page_ar.html">التقديم للعمل التطوعي</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Suggest_initative_ar.html">اقتراح مبادرة </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                tabindex="-1"
-                aria-current="page"
-                href="Student_mail_ar.html"
-                >البريد الالكتروني
-              </a>
-            </li>
-          </ul>
+          @include('include.stdnavbar')
         </div>
       </div>
     </nav>

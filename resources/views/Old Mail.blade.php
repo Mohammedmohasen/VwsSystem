@@ -68,32 +68,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Announcments</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Mail <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Add Institution</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Add Intiative</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Approval of Hours</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Add Responsible</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Add Photo</a>
-                  </li>
-                </ul>
+              @include('include.dovnavbaren')
               </div>
             </nav>
 

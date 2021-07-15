@@ -112,23 +112,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="Institution_Home.html">الصفحة الرئيسية</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                tabindex="-1"
-                aria-current="page"
-                href="Finish_Volunteering.html"
-                >انهاء التطوع</a
-              >
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="institution_mail_ar.html">البريد الالكتروني </a>
-              </li>
-          </ul>
+         @include('include.instuationnavbar')
         </div>
       </div>
     </nav>
