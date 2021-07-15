@@ -95,7 +95,7 @@
                     Examples</h3>
                     <div class="d-flex justify-content-center mt-5 mb-3">
                     <form class="form-inline">
-                      <input class="form-control mr-sm-2 m-2" type="search" placeholder="Search here..." aria-label="Search">
+                      <input class="form-control mr-sm-2 m-2" type="search" placeholder="Search here..." aria-label="Search" name="search">
                         <button class="btn btn-outline my-2 my-sm-0 btn1" type="submit"><i class="fas fa-search mr-1"></i>Search</button>
                     </form>
                     </div>

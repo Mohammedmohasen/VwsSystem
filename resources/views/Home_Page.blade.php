@@ -462,17 +462,17 @@
           <h5 class="text-uppercase footerTitle mb-4">Your Opinion Matters</h5>
           <form action="#" novalidate class="mt-4">
             <div class="form-group">
-              <input class="form-control mr-sm-2" type="text" placeholder="Name" aria-label="name">
+              <input class="form-control mr-sm-2" type="text" placeholder="Name" aria-label="name" name="name">
             </div>
             <div class="form-group">
-              <input class="form-control mr-sm-2" type="number" placeholder="Phone Number" aria-label="phone_number">
+              <input class="form-control mr-sm-2" type="number" placeholder="Phone Number" aria-label="phone_number" name="phone">
             </div>
 
               <div class="form-group">
-                <input class="form-control mr-sm-2" type="email" placeholder="E-Mail" aria-label="email" style="width: 100%;">
+                <input class="form-control mr-sm-2" type="email" placeholder="E-Mail" aria-label="email" style="width: 100%;" name="email">
               </div>
               <div class="form-group mt-4">
-                  <textarea rows="3" class="form-control" placeholder="Message text"></textarea>
+                  <textarea rows="3" class="form-control" placeholder="Message text" name="massege"></textarea>
 
               </div>
               <button class="btn btn-outline my-2 my-sm-0 btn2" type="submit">Send</button>

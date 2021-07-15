@@ -24,7 +24,10 @@ class Home_Page extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name'=>'required|max:15',
+             'phone'=>'required|size:10|numeric',
+             'email'=>'required|email',
+             'massege'=>'required|min:15|max:50'
         ];
     }
 }

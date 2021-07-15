@@ -24,7 +24,12 @@ class Suggest_initative extends FormRequest
     public function rules()
     {
         return [
-            //
+            'std_id'=>'required|size:9|numeric',
+            'name'=>'required',
+            'initiativeName'=>'required|max:20',
+            'address'=>'required|max:25',
+            'number'=>'required|numeric',
+            'phone'=>'required|numeric|size:7'
         ];
     }
 }

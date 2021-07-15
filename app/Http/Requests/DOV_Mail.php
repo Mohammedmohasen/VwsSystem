@@ -24,7 +24,9 @@ class DOV_Mail extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name'=>'required',
+             'title'=>'required|min:5|max:20',
+             'mytextarea'=>'required|min:20|max:120'
         ];
     }
 }

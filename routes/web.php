@@ -23,7 +23,7 @@ Route::view('/admin-home', 'DOV_Home')->name('dovhome');
 Route::view('dov-mail', 'DOV_Mail')->name('dovmail');
 Route::view('Add_Institution', 'Add_Institution')->name('Add_Institution');
 Route::view('Announcments', 'Announcments')->name('Announcments');
-Route::view('Add_Admin_ar', 'Add_Admin_ar')->name('Add_Admin_ar');
+Route::view('Add_Admin', 'Add_Admin_ar')->name('Add_Admin_ar');
 Route::view('Add__initative', 'Add__initative_ar')->name('Add__initative');
 
 // add student route

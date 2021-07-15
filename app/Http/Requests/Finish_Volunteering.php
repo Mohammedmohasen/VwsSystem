@@ -24,7 +24,9 @@ class Finish_Volunteering extends FormRequest
     public function rules()
     {
         return [
-            //
+            'std_id'=>'required|numeric',
+             'std_name'=>'required|max:15',
+
         ];
     }
 }

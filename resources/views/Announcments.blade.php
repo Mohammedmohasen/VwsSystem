@@ -80,7 +80,7 @@
           <div class="form-group my-4">
             <label for="announcment type" class="mt-4">Choose what you want to post<span class="text-danger">*</span>:</label>
             <!--<input type="text" class="form-control" id="atype" name="announcment type" required>-->
-            <select required>
+            <select name="announcment_select" required>
                 <option>News</option>
                 <option>Announcments</option>
             </select>

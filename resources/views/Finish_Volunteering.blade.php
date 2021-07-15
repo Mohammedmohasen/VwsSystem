@@ -145,13 +145,13 @@
         <div class="row g-4 mb-3" id="row3">
             <div class="col-md">
               <div class="form-floating " id="Student_ID_div">
-                <input type="text" class="form-control" id="Student_ID">
+                <input type="text" class="form-control" id="Student_ID" name="std_id">
                 <label for="Student_ID_label">رقم الطالب</label>
             </div>
             </div>
             <div  class="col-md">
               <div class="form-floating " id="Student_ID_div">
-                <input type="text" class="form-control" id="Student_ID">
+                <input type="text" class="form-control" id="Student_ID" name="std_name">
                 <label for="Student_ID_label">اسم الطالب</label>
             </div>
             </div>

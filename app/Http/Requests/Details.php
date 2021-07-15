@@ -24,7 +24,7 @@ class Details extends FormRequest
     public function rules()
     {
         return [
-            //
+            'search'=>'required'
         ];
     }
 }

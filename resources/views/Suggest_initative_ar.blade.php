@@ -166,6 +166,7 @@
                   type="text"
                   class="form-control"
                   id="Student_ID"
+                  name="std_id"
                   value="0"
                   disabled
                 />
@@ -178,6 +179,7 @@
                   type="text"
                   class="form-control"
                   id="Student_Name"
+                  name="name"
                   value="الطالب/ة"
                   disabled
                 />
@@ -192,6 +194,7 @@
                   type="text"
                   class="form-control"
                   id="initiative_Name"
+                  name="initiativeName"
                   value=""
                 />
                 <label for="initiative_Name_label"> اسم المبادرة<span class="text-danger">*</span></label>
@@ -202,6 +205,7 @@
                 <input
                   type="text"
                   class="form-control"
+                  name="address"
                   id="Institution_Address"
                   value=""
                 />
@@ -215,6 +219,7 @@
                 <input
                   type="text"
                   class="form-control"
+                  name='number'
                   id="Volunteers_Number"
                   value=""
                 />
@@ -225,6 +230,7 @@
               <div class="form-floating" id="Phone_num_div">
                 <input
                   type="text"
+                  name="phone"
                   class="form-control"
                   id="Phone_num"
                   value=""
@@ -236,7 +242,7 @@
           <div class="row g-4 mb-3" id="row4">
             <div class="col-md">
               <div class="form-floating mb-3 col-md" id="Select_Provinces_div">
-                  <select class="form-select" id="Select_Provinces">
+                  <select class="form-select" id="Select_Provinces" required>
                       <option id="All_Provinces" value="All_Provinces" selected>الكل</option>
                       <option id="Jabalia" value="Jabalia">جباليا</option>
                       <option id="Gaza" value="Gaza">غزة</option>

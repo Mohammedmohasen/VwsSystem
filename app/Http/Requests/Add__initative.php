@@ -24,7 +24,11 @@ class Add__initative extends FormRequest
     public function rules()
     {
         return [
-            //
-        ];
+             'Initative_name'=>'required | min:3',
+             'select_prov'=>'required',
+             'Initative_Address'=>'required | min:5',
+             'Initative_details'=>'required | min:15 | max:120',
+              'Initative_hours_number'=>'required',
+            ];
     }
 }

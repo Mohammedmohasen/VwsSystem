@@ -23,8 +23,13 @@ class Add_Admin extends FormRequest
      */
     public function rules()
     {
+        // in the passwored confirm field we can use the same passwored rules b this statment its work
         return [
-            //
+            'username'=>'required',
+             'password'=>'required|
+               min:6|
+               regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\x])(?=.*[!$#%]).*$/|
+               confirmed',
         ];
     }
 }

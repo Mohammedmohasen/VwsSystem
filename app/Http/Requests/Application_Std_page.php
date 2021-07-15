@@ -24,7 +24,7 @@ class Application_Std_page extends FormRequest
     public function rules()
     {
         return [
-            //
+            
         ];
     }
 }

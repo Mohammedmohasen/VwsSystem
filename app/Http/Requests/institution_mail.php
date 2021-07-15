@@ -24,7 +24,9 @@ class institution_mail extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name'=>'required',
+            'title'=>'required|max:14',
+            'mytextarea'=>'required|max:300'
         ];
     }
 }

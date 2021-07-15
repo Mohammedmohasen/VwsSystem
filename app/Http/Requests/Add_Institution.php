@@ -24,7 +24,14 @@ class Add_Institution extends FormRequest
     public function rules()
     {
         return [
-            //
+            'Institution_name'=>'required|min:5',
+            'Institution_type'=>'required',
+            'Governrate'=>'required',
+            'Password'=>'required|
+               min:6|
+               regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\x])(?=.*[!$#%]).*$/|
+               confirmed',
+            'logo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
         ];
     }
 }

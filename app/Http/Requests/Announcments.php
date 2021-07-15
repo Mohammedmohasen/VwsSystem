@@ -24,7 +24,10 @@ class Announcments extends FormRequest
     public function rules()
     {
         return [
-            //
+            'announcment_select'=>'required',
+            'title'=>'required|min:6',
+            'date'=>'required',
+            'content'=>'required|min:14|max:250'
         ];
     }
 }

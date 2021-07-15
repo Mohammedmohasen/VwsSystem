@@ -24,7 +24,7 @@ class Institution_Home extends FormRequest
     public function rules()
     {
         return [
-            //
+            'reqVolunteers'=>'required|numeric'
         ];
     }
 }

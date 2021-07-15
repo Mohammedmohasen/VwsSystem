@@ -143,7 +143,7 @@
           <label for="Initative_governrate" class="mb-2"
             >المحافظة<span class="text-danger">*</span>:</label
           >
-          <select class="form-select" id="Select_Provinces">
+          <select class="form-select" name="select_prov"id="Select_Provinces">
             <option id="All_Provinces" value="All_Provinces" selected>الكل</option>
             <option id="North_Gaza" value="North Gaza">شمال غزة</option>
             <option id="Gaza" value="Gaza">غزة</option>

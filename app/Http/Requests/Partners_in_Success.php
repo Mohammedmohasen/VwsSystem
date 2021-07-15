@@ -24,7 +24,7 @@ class Partners_in_Success extends FormRequest
     public function rules()
     {
         return [
-            //
+            'search'=>"required"
         ];
     }
 }
