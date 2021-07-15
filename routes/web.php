@@ -19,7 +19,6 @@ Route::view('/Partners', 'Partners_in_Success')->name('Partners');
 Route::view('/About', 'About_US')->name('About');
 
 // add iniative route page
-
 Route::view('/admin-home', 'DOV_Home')->name('dovhome');
 Route::view('dov-mail', 'DOV_Mail')->name('dovmail');
 Route::view('Add_Institution', 'Add_Institution')->name('Add_Institution');
@@ -33,7 +32,7 @@ Route::view('Application_Std', 'Application_Std_page_ar')->name('Application_Std
 Route::view('Suggest_initative', 'Suggest_initative_ar')->name('Suggest_initative');
 Route::view('Student_mail', 'Student_mail_ar')->name('Student_mail');
 
-// add instuation route page 
+// add instuation route page
 
 Route::view('Institution_Home', 'Institution_Home')->name('Institution_Home');
 Route::view('Finish_Volunteering', 'Finish_Volunteering')->name('Finish_Volunteering');
