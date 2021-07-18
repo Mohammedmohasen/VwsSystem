@@ -69,7 +69,7 @@
                             <div class="divider row"></div>
                             <div>
 
-                                   <form method="POST" action="{{ action('controlController@store') }}">
+                                   <form method="POST" action="">
                                       <input type="hidden" name="requestName" value="loginForm"/>
                                     @include('include.massege')
                                      @csrf

@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Models\DOV;
-
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
 
 class department_of_volunteer extends Model
 {
@@ -48,5 +49,25 @@ class department_of_volunteer extends Model
       public function Initiative()
     {
         return $this->hasMany(Initiative::class);
+    }
+
+    public function authenticate(Request $request)
+    {
+
+        $user = $this->validate($request, [
+            'email' => ['required', 'email'],
+            'password' => ['required'],
+        ]);
+        $remember =$request->has('check');
+        if (Auth::attempt($user,$remember)) {
+            $request->session()->regenerate();
+
+        }
+
+        return back()->withErrors([
+            'email' => 'The provided credentials do not match our records.',
+            'password' => 'wrong password',
+        ]);
+
     }
 }

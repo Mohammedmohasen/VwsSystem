@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//login route page
+
+Route::view('login', 'login\pages-login');
+
 //about rooute page
 
 Route::view('/home', 'Home_Page')->name('home-page');
